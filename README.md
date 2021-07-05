@@ -8,3 +8,11 @@
 > Octopuses appear in mythology as sea monsters like the Kraken of Norway and the Akkorokamui of the Ainu, and probably the Gorgon of ancient Greece. A battle with an octopus appears in Victor Hugo's book Toilers of the Sea, inspiring other works such as Ian Fleming's Octopussy. Octopuses appear in Japanese erotic art, shunga. They are eaten and considered a delicacy by humans in many parts of the world, especially the Mediterranean and the Asian seas.
 
 Read more about the Octopus on [Wikipedia](https://en.wikipedia.org/wiki/Octopus)
+
+## Docker
+If you want a containerized Octopus, please use the Dockerfile provided.
+
+```
+$ docker build -t octopus/octopus .
+$ docker run --name octopus --rm octopus/octopus
+```

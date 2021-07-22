@@ -2,8 +2,7 @@
 
 FROM alpine:3.14
 
-MAINTAINER "Serializator"
-
+LABEL maintainer="Serializator"
 LABEL version="1.0.0"
 
 USER 1000
